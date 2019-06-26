@@ -1,0 +1,16 @@
+section{
+			position: relative;
+			margin: auto;
+			width: 1000px;
+			height: 1000px;
+			/*background: #aaa;*/
+		}
+
+article{
+			position: absolute;
+			top: 0;
+			left: 200px;
+			width: 600px;
+			height: 600px;
+			/*background: #555;*/
+		}

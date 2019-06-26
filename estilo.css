@@ -1,0 +1,252 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: sans-serif;
+}
+
+body{
+	background: url(../img/fondo.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+}
+
+header{
+	position: relative;
+	margin: 20px auto;
+	width: 1000px;
+	height: 120px;
+	background: url(../img/fondo.jpg);
+}
+
+header figure{
+	margin-left: 100px;
+}
+
+
+
+		/*#logo{
+			position: absolute;
+			top: 30px;
+			left: 30px;
+			width: 200px;
+			height:60px;
+			/*background: #ccc; esto va como comentario
+			font-size: 40px;
+			text-align: center;
+		}*/
+
+		.redes{
+			position: absolute;
+			width: 42px;
+			height: 42px;
+			background: #ccc;
+			border-radius: 100%;
+			text-align: center;
+			line-height: 42px;
+			color: white;
+		}
+
+		/*inicio icono de facebook*/
+		#icono1{
+			/*background: rgba(0,0,100,1);*/
+			top: 42px;
+			right: 120px;
+		}
+
+		#icono1 img{
+			border-radius: 100%;
+		}
+		/*fin icono de facebook*/
+
+		/*inicio icono de twitter*/
+		#icono2{
+			/*background: rgba(0,0,220,1);*/
+			top: 42px;
+			right: 71px;
+		}
+
+		#icono2 img{
+			border-radius: 100%;
+		}
+		/*fin icono de twitter*/
+
+		/*inicio icono de youtube*/
+		#icono3{
+			/*background: rgba(255,0,0,1);*/
+			top: 42px;
+			right: 19px;
+		}
+
+		#icono3 img{
+			border-radius: 100%;
+		}
+		/*fin icono de youtube*/
+
+		nav{
+			position: relative;
+			margin: auto;
+			width: 1000px;
+			height: 48px;
+		}
+
+		.botones{
+			float: left;
+			width: 196px;
+			height: 48px;
+			background: #ccc;
+			margin: 0 2px;
+			font-size: 20px;
+			text-align: center;
+			line-height: 48px;
+			border-radius: 15%;
+			color: black;
+
+		}
+
+		a .botones:hover{
+			background: rgba(170,170,170,.3);
+		}
+
+		a .botones:active{
+			background: rgba(250,250,250,.3);
+		}
+
+		#top{
+			position: relative;
+			margin: 30px auto;
+			width: 1000px;
+			height: 192px;
+		}
+
+		#top ul{
+			width: 1010px;
+			height: 192px;
+		}
+
+		#top ul li{
+			float: left;
+			width: 326px;
+			height: 192px;
+			/*background: #aaa;*/
+			margin-right: 10px;
+			text-align: center;
+		}
+
+		#top ul li img{
+			margin-top: 10px;
+			border-radius: 20%;
+		}
+
+		/*esta parte se movio a EstiloArticle.css cada seccion del articulo tendra su css*/
+		/*section{
+			position: relative;
+			margin: auto;
+			width: 1000px;
+			height: 600px;
+			background: #aaa;
+		}*/
+
+		aside#izq{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 200px;
+			height: 600px;
+			/*background: #ccc;*/
+		}
+
+		aside#izq ul li{
+			background: #ccc;
+			padding: 20px;
+			margin-bottom: 10px;
+			/*list-style: square;*/
+			list-style-position: inside;
+		}
+
+		aside#izq ul li a{
+			text-decoration: none;
+			color: #ccc;
+		}
+		/*esta parte se movio a EstiloArticle.css cada seccion del articulo tendra su css*/
+		/*article{
+			position: absolute;
+			top: 0;
+			left: 200px;
+			width: 600px;
+			height: 600px;
+			/*background: #555;*/
+		/*}
+
+		article h1{
+			font-size: 30px;
+			margin: 5px 20px;
+		}
+
+		article p img{
+			float: left;
+			margin-right: 20px;
+		}
+
+		article p{
+			margin: 10px 20px;
+			text-align: justify;
+		}*/
+
+		aside#der{
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 200px;
+			height: 600px;
+			/*background: #ccc;*/
+		}
+
+		aside#der h3 img {
+			float: left;
+			margin-right: 20px;
+		}
+
+		aside#der h3 {
+			background: #ccc;
+			padding: 5px;
+			border: 3px solid black;
+			color: black;
+			/*text-align: center;*/
+		}		
+
+		aside#der audio {
+			background: black;
+			width: 194px;
+			border: 3px solid black;
+			margin-bottom: 10px;
+		}
+
+		aside#der h1{
+			height: 50px;
+			width: 200px;
+			background: #ccc;
+			text-align: center;
+			line-height: 50px;
+			margin-bottom: 10px;
+		}
+		aside#der input{
+			padding: 10px;
+			height: 10px;
+			width: 180px;
+			margin-bottom: 5px;
+		}
+
+		aside#der input[type="submit"]{
+			width: 202px;
+			height: 50px;
+			background: #ccc;
+		}
+
+		footer{
+			/*position: relative;*/
+			margin: 20px auto;
+			width: 1000px;
+			height: 70px;
+			background: #aaa;
+		}

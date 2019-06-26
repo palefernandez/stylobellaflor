@@ -1,0 +1,33 @@
+section{
+			position: relative;
+			margin: auto;
+			width: 1000px;
+			height: 900px;
+			/*background: #aaa;*/
+		}
+
+article{
+		position: absolute;
+		top: 0;
+		left: 200px;
+		width: 600px;
+		height: 400px;
+		/*background: #555;*/
+		}
+article h1 {
+	margin-left: 30px;
+	font-size: 30px;
+}
+
+article p {
+	margin-left: 30px;
+	font-size: 20px;
+}
+
+article p a {
+	text-decoration: none;
+	}
+
+article iframe {
+	margin-top: 50px;
+}

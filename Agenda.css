@@ -1,0 +1,50 @@
+section{
+			position: relative;
+			margin: auto;
+			width: 1000px;
+			height: 1000px;
+			/*background: #aaa;*/
+		}
+
+article{
+			position: absolute;
+			top: 0;
+			left: 200px;
+			width: 600px;
+			height: 600px;
+			/*background: #555;*/
+		}
+
+.separadores{
+	position: relative;
+	width: 590px;
+	height: 200px;
+	margin-top: 10px;
+	margin-left: 5px;
+	background: #fff;
+}
+
+#show{
+	width: 590px;
+	height: 90px;
+}
+
+article #show h2{
+	margin-left: 30px;
+}
+
+article h1{
+	font-size: 30px;
+	margin: 5px 20px;
+}
+
+article p img{
+	float: left;
+	margin-top: 5px;
+	margin-right: 20px;
+}
+
+article p{
+	margin: 10px 30px;
+	text-align: justify;
+}
